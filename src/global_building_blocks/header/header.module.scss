@@ -1,0 +1,12 @@
+.dropDownStart {
+    transition: height 0.5s;
+    height: 0;
+}
+
+.dropDownFinish {
+    //transition: max-height 0.5s;
+    //max-height: 100px;
+    transition: height 0.5s;
+    height: 100%;
+}
+
