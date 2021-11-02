@@ -27,7 +27,7 @@ const HomePage: React.FC = () => {
          * effect of typing */
         setTimeout(() => {
           setCompletedLength((completedLength) => completedLength + 1);
-        }, Math.max(50 + 100 * (Math.random() - 0.5), 10));
+        }, Math.max(40 + 100 * (Math.random() - 0.5), 10));
       }
     } else {
       /* Ok, so now we know we're deleting the message,
@@ -64,7 +64,9 @@ const HomePage: React.FC = () => {
               <span className="text-xl font-semibold text-white break-words ">
                 ${" "}
                 {!!landingPageMessages[messageIndex] &&
-                  landingPageMessages[messageIndex].slice(0, completedLength)}
+                  landingPageMessages[messageIndex]
+                    .slice(0, completedLength)
+                    .trim()}
                 <span className={styles.blinkingCursor}>|</span>
               </span>
             </div>

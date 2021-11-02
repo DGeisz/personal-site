@@ -19,7 +19,7 @@ export const landingPageMessages = [
   "Math is super interesting too",
   "I was in love with physics until academia stomped that out",
   "I guess I'm a college drop out?? Isn't that cute",
-  "I'm basically waiting for the U.S. to collapse and people to rebuild public institutions on blockchain",
+  "I'm basically waiting for the US to collapse and everyone to rebuild public institutions on blockchain",
   "I built a couple social media platforms, and that turned out to be kinda dumb",
   "I'm a big fan of the mountains, so I'm basically just an average white girl",
   "It's about time for us to make strides in making formal verification more accessible",
