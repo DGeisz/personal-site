@@ -10,6 +10,9 @@ module.exports = {
         height: "height",
       },
       maxHeight: ["hover"],
+      backgroundImage: {
+        alcohol: "url('/alcohol.jpg')",
+      },
     },
   },
   variants: {
